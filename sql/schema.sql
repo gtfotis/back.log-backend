@@ -6,6 +6,14 @@ CREATE TABLE users (
     user_password VARCHAR(255) NOT NULL
 );
 
+CREATE TABLE backlog (
+    id serial PRIMARY KEY,
+    game_id integer(50) NOT NULL,
+    date_added date,
+    user_id uuid REFERENCES users(user_id)
+)
+
+
 CREATE TABLE currently_playing (
     id serial PRIMARY KEY,
 
