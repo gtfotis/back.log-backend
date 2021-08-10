@@ -50,7 +50,7 @@ router.post("/delete", validInfo, async (req, res) => {
       [game_id, user_id]
     );
     if (gameCheck.rows.length === 0) {
-      return res.status(401).json("This game is not in your backlog!");
+      return res.status(401).json("This game isn't in your backlog!");
     }
 
     const deleteGame = await pool.query(
