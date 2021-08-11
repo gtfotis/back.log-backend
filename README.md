@@ -11,4 +11,5 @@ back.log() is an activity planning app dedicated to taking care of your (video g
 
 ## Credits
 Video Game API provided by [RAWG](https://rawg.io/)
+
 JWT Tutorial by [Stoic Programmers](https://www.youtube.com/watch?v=7UQBMb8ZpuE&t=3846s)
